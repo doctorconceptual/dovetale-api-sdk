@@ -2,8 +2,6 @@
 
 namespace DoveTale;
 
-use HTTP_Request;
-
 class Client {
 
 	static $baseURL = 'https://api.dovetale.com/v2/';
