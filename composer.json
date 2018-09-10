@@ -1,0 +1,16 @@
+{
+	"name": "doctorconceptual/dovetale-api-sdk",
+	"description": "PHP SDK for DoveTale API.",
+	"keywords": ["dovetale sdk", "dovetale API", "dovetale php"],
+	"homepage": "https://github.com/doctorconceptual/dovetale-api-sdk",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Muhammad Talal",
+			"email": "mtalal@mtalal.net"
+		}
+	],
+	"require": {
+		"php": ">=5.4.1"
+	},
+}

@@ -1,0 +1,30 @@
+
+PHP SDK for DoveTale API.
+
+Copyright & License
+-------------------
+PHP SDK for DoveTale API is
+Copyright (c) 2018 Muhammad Talal if not otherwise stated. The code
+is distributed under the terms of the MIT License. For the full license
+text see the LICENSE file.
+
+Versions & Requirements
+-----------------------
+1.0.0, PHP >=5.4.1
+
+Installation
+------------
+The preferred installation method is via composer. You can add the library
+as a dependency via:
+
+$ composer require doctorconceptual/dovetale-api-sdk
+
+Usage
+-----
+<?php
+
+use DoveTale\Client;
+$client = new Client($clientID, $clientSecret);
+$profile = $client->get_profile_by_url('https://www.instagram.com/dovetale/');
+
+?>
