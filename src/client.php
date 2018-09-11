@@ -113,9 +113,8 @@ class Client {
 		if (!$listID || !$pageNum)
 			throw new Required_Param_Missing_Exception();
 
-		$params = ['page' => $pageNum];
-		$url = self::$baseURL . "lists/{$listID}";
-		return $this->make_call($url, self::METHOD_GET, $params);
+		$url = self::$baseURL . "lists/{$listID}?page={$pageNum}";
+		return $this->make_call($url, self::METHOD_GET);
 	}
 
 	/**
